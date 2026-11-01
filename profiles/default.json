@@ -1,0 +1,50 @@
+{
+  "pressure": {
+    "aggregateHeight": 0.28,
+    "attack": 6.6,
+    "b2b": 1.35,
+    "bumpiness": 0.62,
+    "clear": 1.45,
+    "columnTransitions": 0.1,
+    "combo": 0.9,
+    "coveredHoles": 3.2,
+    "dangerHeight": 5.7,
+    "deepestWell": 0.26,
+    "holes": 8.5,
+    "perfectClear": 19,
+    "rowTransitions": 0.16,
+    "spin": 3.2
+  },
+  "downstack": {
+    "aggregateHeight": 0.4,
+    "attack": 3.7,
+    "b2b": 1.35,
+    "bumpiness": 0.84,
+    "clear": 3.7,
+    "columnTransitions": 0.1,
+    "combo": 0.9,
+    "coveredHoles": 5.6,
+    "dangerHeight": 8.2,
+    "deepestWell": 0.08,
+    "holes": 13,
+    "perfectClear": 19,
+    "rowTransitions": 0.32,
+    "spin": 1.25
+  },
+  "survival": {
+    "aggregateHeight": 0.58,
+    "attack": 2.3,
+    "b2b": 0.45,
+    "bumpiness": 1.08,
+    "clear": 4.8,
+    "columnTransitions": 0.1,
+    "combo": 0.9,
+    "coveredHoles": 8.5,
+    "dangerHeight": 12.5,
+    "deepestWell": 0,
+    "holes": 18,
+    "perfectClear": 19,
+    "rowTransitions": 0.44,
+    "spin": 0.6
+  }
+}

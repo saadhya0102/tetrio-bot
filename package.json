@@ -1,0 +1,46 @@
+{
+  "name": "tetrio-competitive-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A safety-gated, testable TETR.IO bot and offline competitive Tetris engine.",
+  "engines": {
+    "node": ">=22.4.0 <23"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "check": "tsc --noEmit --project tsconfig.json",
+    "test": "vitest run",
+    "test:replay": "vitest run src/tetrio/live-enumerator.test.ts src/tetrio/controller.test.ts src/tetrio/tactics.test.ts",
+    "test:property": "vitest run src/tetrio/live-enumerator.property.test.ts",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "simulate": "tsx src/cli/simulate.ts",
+    "benchmark": "tsx src/cli/benchmark.ts",
+    "benchmark:live": "tsx src/cli/benchmark-live.ts",
+    "match": "tsx src/cli/match.ts",
+    "engine:match": "tsx src/cli/engine-match.ts",
+    "engine:tournament": "tsx src/cli/engine-tournament.ts",
+    "tournament": "tsx src/cli/tournament.ts",
+    "tune": "tsx src/cli/tune.ts",
+    "bot": "tsx src/cli/bot.ts",
+    "train:export": "tsx src/cli/export-training-data.ts"
+  },
+  "dependencies": {
+    "@haelp/teto": "4.2.7",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.2.0",
+    "eslint": "^10.8.1",
+    "fast-check": "^4.9.0",
+    "prettier": "^3.9.6",
+    "tsx": "^4.23.12",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.67.0",
+    "vitest": "^4.1.10"
+  }
+}
